@@ -22,7 +22,7 @@
         //Usuario
         private static final String USER = "root";
         //Senha
-        private static final String PASSWORD = "siqueira";
+        private static final String PASSWORD = "inatel";
 
         public static Connection connectToDb() {
             //objeto responsavel pela conexao com o servidor do banco de dados

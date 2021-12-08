@@ -144,7 +144,7 @@ public class TelaLogin extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonEntrarActionPerformed
 
     /**
-     * MÃ©todo para exibir a classe TelaLogin
+     * Método para exibir a classe TelaLogin
      */
     private void retornar() {
         TelaLogin telaLogin = new TelaLogin();
@@ -170,6 +170,7 @@ public class TelaLogin extends javax.swing.JFrame {
     private void chamarTelaCadastro() {
         TelaCadastro telaCadastro = new TelaCadastro();
         telaCadastro.setVisible(true);
+        this.setVisible(false);
     }
 
     /**

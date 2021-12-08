@@ -162,7 +162,7 @@ public class TelaPrincipal extends javax.swing.JFrame {
         jMenuBarBarraDeMenu.add(jMenuPlaylists);
 
         jMenuConfiguracoes.setIcon(new javax.swing.ImageIcon("src\\main\\resources\\images\\cog.png")); // NOI18N
-        jMenuConfiguracoes.setText("ConfiguraÃ§Ãµes");
+        jMenuConfiguracoes.setText("Configurações");
         jMenuConfiguracoes.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 jMenuConfiguracoesItemStateChanged(evt);
@@ -269,9 +269,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
 
     private void jMenuItemSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemSairActionPerformed
         // TODO add your handling code here:
-        this.setVisible(false);
         TelaLogin telaLogin = new TelaLogin();
         telaLogin.setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_jMenuItemSairActionPerformed
 
     public JDesktopPane getjDesktopPanePrincipal() {
