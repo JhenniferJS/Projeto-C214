@@ -1,3 +1,6 @@
+[![CI](https://github.com/JhenniferJS/Projeto-C214/actions/workflows/main.yml/badge.svg)](https://github.com/JhenniferJS/Projeto-C214/actions/workflows/main.yml)
+
+
 <h1 align="center">
     <img alt="TocAi" title="#TocAi" src="src/main/resources/images/logo_size_quadrado-removebg-preview.png" />
 </h1>
