@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="TocAi" title="#TocAi" src="./images/logo.png" />
+    <img alt="TocAi" title="#TocAi" src="src/main/resources/images/logo_size_quadrado-removebg-preview.png" />
 </h1>
 
 <h1 align="center">Projeto C214</h1>
