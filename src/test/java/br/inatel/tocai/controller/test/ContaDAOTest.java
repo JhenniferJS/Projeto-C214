@@ -1,4 +1,4 @@
-package br.inatel.tocai.test.controller;
+package br.inatel.tocai.controller.test;
 
 import java.util.ArrayList;
 
@@ -14,6 +14,7 @@ import br.inatel.tocai.controller.ContaDAO;
 import br.inatel.tocai.model.Conta;
 import br.inatel.tocai.model.Endereco;
 import br.inatel.tocai.model.Usuario;
+import junit.framework.Assert;
 
 @RunWith(PowerMockRunner.class)
 @PrepareForTest(ContaDAO.class)

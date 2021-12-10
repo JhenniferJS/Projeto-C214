@@ -1,4 +1,4 @@
-package br.inatel.tocai.test.controller;
+package br.inatel.tocai.controller.test;
 
 
 import java.sql.Connection;
@@ -19,7 +19,7 @@ public class AccessDataBaseTest {
 	private Connection connection;
 
 	@Test
-	public void test() {
+	public void connectToDbTest() {
 		connection = PowerMock.createMock(Connection.class);
 	    PowerMock.mockStatic(AccessDataBase.class);
 	    EasyMock.expect(AccessDataBase.connectToDb()).andReturn(connection);
