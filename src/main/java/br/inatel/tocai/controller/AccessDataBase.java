@@ -29,6 +29,7 @@
             Connection con = null;
             try {
                 con = DriverManager.getConnection(URL, USER, PASSWORD);
+                System.out.println(con);
                 System.out.println("Conexao realizada com sucesso! ");
             } catch (SQLException ex) {
                 System.out.println("nao conectou");

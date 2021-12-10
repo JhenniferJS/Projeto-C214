@@ -6,7 +6,7 @@
 package br.inatel.tocai.model;
 
 /**
- * Classe que contem informaÃ§Ãµes sobre o usuario
+ * Classe que contem informações sobre o usuario
  * @author Jhennifer
  */
 public class Usuario {

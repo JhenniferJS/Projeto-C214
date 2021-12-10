@@ -6,7 +6,7 @@
 package br.inatel.tocai.model;
 
 /**
- * Classe que contÃ©m as informaÃ§Ãµes sobre as mÃºsicas
+ * Classe que contém as informações sobre as músicas
  * @author Jhennifer
  */
 public class Musica {
