@@ -23,6 +23,8 @@ public class AccessDataBaseTest {
 		connection = PowerMock.createMock(Connection.class);
 	    PowerMock.mockStatic(AccessDataBase.class);
 	    EasyMock.expect(AccessDataBase.connectToDb()).andReturn(connection);
+	    
+	    PowerMock.niceReplayAndVerify();
 	}
 }
 
