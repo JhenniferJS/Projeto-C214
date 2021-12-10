@@ -1,4 +1,4 @@
-package br.inatel.tocai.test;
+package br.inatel.tocai.test.controller;
 
 import java.util.ArrayList;
 
