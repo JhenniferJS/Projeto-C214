@@ -34,7 +34,7 @@
             } catch (SQLException ex) {
                 System.out.println("nao conectou");
                 System.out.println("Erro: " + ex.getMessage());
-            }
+            } 
             return con;
         }
     }
