@@ -20,7 +20,7 @@
 ##Sobre
 
 Projeto desenvolvido para a matéria de Engenharia de Software - C214.
-Trata-se de um protótipo de plataforma de música, denominado TocAí, desenvolvido na linguagem Java e com conexão ao banco de dados.
+Trata-se de um protótipo de plataforma musical, denominado TocAí, desenvolvido na linguagem Java e com conexão ao banco de dados.
 Para que seu funcionamento ocorra da forma esperada, foram realizados testes unitários e ferramenta de integração contínua.
 
 ### Projeto desenvolvido com o Monitor Leonardo :wink:
@@ -37,7 +37,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes fe
 
 ## Dependências
 
-Nesse projeto utilizei as seguintes depêndencias:
+Nesse projeto foi utilizado as seguintes depêndencias:
 
 - [JUnit](https://junit.org/junit4/) Versão 4.13.2
 - [PowerMock](https://github.com/powermock/powermock) Versão 2.0.9
@@ -59,7 +59,26 @@ Para esse protótipo, os dados para conexão ao banco de dados estão fixos no códi
 - Usuário: root
 - Senha: inatel 
 
+## Como executar a aplicação
 
+Antes de executar a aplicação, deve-se gerar o arquivo .jar
+Para isso, o comando abaixo na raíz do projeto:
+```bash
+$ mvn clean install
+```
+Ao término da execução, será gerado o arquivo ProjetoC214-1.0-with-dependencies.jar no diretório ProjetoC214/target/.
+
+Em seguida, pode-se iniciar a aplicação utilizando o seguinte comando na raíz do projeto:
+```bash
+$ java -jar target/ProjetoC214-1.0-with-dependencies.jar
+```
+
+## Como executar os testes
+
+Para executar os testes na sua máquina, basta utilizar o comando abaixo na raíz do projeto:
+```bash
+$ mvn clean test
+```
 
 o
 
