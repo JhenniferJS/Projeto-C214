@@ -63,7 +63,8 @@ Para esse protótipo, os dados para conexão ao banco de dados estão fixos no códi
 ## Como executar a aplicação
 
 Antes de executar a aplicação, deve-se gerar o arquivo .jar
-Para isso, o comando abaixo na raíz do projeto:
+
+Para isso, execute o comando abaixo na raíz do projeto:
 ```bash
 $ mvn clean install
 ```
