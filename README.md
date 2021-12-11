@@ -5,9 +5,7 @@
     <img alt="TocAi" title="#TocAi" src="src/main/resources/images/logo_size_quadrado-removebg-preview.png" />
 </h1>
 
-<h1 align="center">Projeto C214</h1>
-
-<p align="center">ProtÃ³tipo de uma plataforma de mÃºsicas :musical_note:</p>
+<h1 align="center">Protótipo de uma plataforma musical :musical_note:</h1>
 
 - [Sobre](#sobre)
 - [Pré requisitos](#pré-requisitos)
@@ -17,10 +15,12 @@
 - [Como executar a aplicação](#como-executar-a-aplicação)
 - [Como executar os testes](#como-executar-os-testes)
 
-##Sobre
+## Sobre
 
 Projeto desenvolvido para a matéria de Engenharia de Software - C214.
+
 Trata-se de um protótipo de plataforma musical, denominado TocAí, desenvolvido na linguagem Java e com conexão ao banco de dados.
+
 Para que seu funcionamento ocorra da forma esperada, foram realizados testes unitários e ferramenta de integração contínua.
 
 ### Projeto desenvolvido com o Monitor Leonardo :wink:
@@ -47,7 +47,7 @@ Nesse projeto foi utilizado as seguintes depêndencias:
 
 Para clonar o repositório em algum lugar na sua máquina, basta utilizar o comando abaixo:
 ```bash
-$ git clone https://github.com/JhenniferJS/Projeto-S206.git
+$ git clone https://github.com/JhenniferJS/Projeto-C214.git
 ```
 ## Banco de Dados
 
@@ -79,9 +79,3 @@ Para executar os testes na sua máquina, basta utilizar o comando abaixo na raíz 
 ```bash
 $ mvn clean test
 ```
-
-o
-
-
-
-
