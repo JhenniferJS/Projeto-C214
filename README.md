@@ -5,7 +5,7 @@
     <img alt="TocAi" title="#TocAi" src="src/main/resources/images/logo_size_quadrado-removebg-preview.png" />
 </h1>
 
-<h1 align="center">Protótipo de uma plataforma musical :musical_note:</h1>
+<h2 align="center">Protótipo de uma plataforma musical :musical_note:</h2>
 
 - [Sobre](#sobre)
 - [Pré requisitos](#pré-requisitos)
@@ -42,6 +42,7 @@ Nesse projeto foi utilizado as seguintes depêndencias:
 - [JUnit](https://junit.org/junit4/) Versão 4.13.2
 - [PowerMock](https://github.com/powermock/powermock) Versão 2.0.9
 - [EasyMock](https://easymock.org/) Versão 2.0.9
+- [MySQL Connector](https://www.mysql.com/products/connector/) Versão 8.0.27
 
 ## Clonando Repositório
 
