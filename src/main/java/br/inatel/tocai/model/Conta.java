@@ -6,7 +6,7 @@
 package br.inatel.tocai.model;
 
 /**
- * Classe que contÃ©m o login e senha do usuario.  
+ * Classe que contém o login e senha do usuario.  
  * @author Jhennifer
  */
 public class Conta {

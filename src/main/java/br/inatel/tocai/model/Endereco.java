@@ -6,7 +6,7 @@
 package br.inatel.tocai.model;
 
 /**
- * Classe que contÃ©m os dados do endereÃ§o do usuario
+ * Classe que contém os dados do endereço do usuario
  * @author Jhennifer
  */
 public class Endereco {

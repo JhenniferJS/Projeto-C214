@@ -6,7 +6,7 @@
 package br.inatel.tocai.model;
 
 /**
- * Classe que contém os dados do cartão de crédito do usuario
+ * Classe que cont�m os dados do cartão de crédito do usuario
  * @author Jhennifer
  */
 public class CartaoCredito {
